@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<mavlink>
+  <!-- XML file for prototyping definitions for standard.xml  -->
+  <include>standard.xml</include>
+  <version>0</version>
+  <dialect>0</dialect>
+
+  <messages>
+
+    <message id="444" name="SUBAK_INFO">
+      <description>Get SUBAK_INFO.
+      </description>
+      <field type="uint32_t" name="x_value">Subak X value.</field>
+      <field type="uint32_t" name="y_value">Subak Y value.</field>
+    </message>
+  </messages>
+</mavlink>
